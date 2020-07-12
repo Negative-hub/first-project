@@ -115,6 +115,17 @@ body {
   height: 1000px;
 }
 
+.section__header{
+  text-align: center;
+  padding: 50px 0 80px;
+
+}
+
+.section__title{
+  font-size: 45px;
+}
+
+
 /* container */
 
 .container{
@@ -183,7 +194,12 @@ body {
 
 .rec-1 {
   background-color: #019A9B;
+  display: flex;
+
+  align-items: center;
 }
+
+
 
 /* rec-2 */
 
@@ -230,6 +246,64 @@ body {
 
 .rec-3 {
   background-color: #008B8C;
+
+  height: 600px;
+}
+
+.request{
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+}
+
+.firts__row, .second__row, .third__row{
+  width: 600px;
+}
+
+.subscribe{
+  width: 100%;
+  padding: 0 0 50px;
+}
+
+.subscribe__input, .name__input{
+  width: 600px;
+  height: 40px;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: 700;
+
+  background-color: #C4C4C4;
+}
+
+.subscribe__input::placeholder, .name__input::placeholder{
+  color: #000;
+
+  font-weight: 700;
+}
+
+.third__row{
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+.name__input{
+  width: 300px;
+}
+
+.btn{
+  border: none;
+  color: #000;
+  background-color: #B70000;
+
+  transition: all .2s linear;
+}
+
+.btn:hover{
+  background-color: #800808;
 }
 
 /* rec-4 */
